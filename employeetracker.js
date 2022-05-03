@@ -1,5 +1,5 @@
 //Dependencies
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const inquirer = require("inquirer");
 const cTable = require("console.table");
 
@@ -7,14 +7,14 @@ const cTable = require("console.table");
 const connection = mysql.createConnection({
   host: "localhost",
 
-  //sets up the port
-  port: 3306,
+  // //sets up the port
+  // port: 3306,
 
   //username
   user: "root",
 
   //password
-  password: "1215",
+  password: "",
   database: "employee_trackerDB"
 });
 

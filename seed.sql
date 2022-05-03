@@ -35,32 +35,32 @@ VALUES ("Legal Team Lead", 200000, 4);
 
 
 /*inserting employee names and role into employee table*/
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Bruce Wayne", 6);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Bruce Wayne", 6, NULL);
 
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Carol Danvers", 4);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Carol Danvers", 4, 1);
 
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Diana Prince", 6);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Diana Prince", 6, NULL);
 
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Barry Allen", 3);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Barry Allen", 3, 2);
 
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Fitzwilliam Darcy", 1);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Fitzwilliam Darcy", 1, NULL);
 
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Elizabeth Bennet", 4);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Elizabeth Bennet", 4, NULL);
 
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Tony Stark", 3);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Tony Stark", 3, 6);
 
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Iris West-Allen", 5);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Iris West-Allen", 5, 6);
 
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Oliver Queen", 5);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Oliver Queen", 5, NULL);
 
-INSERT INTO employee (employee_name, role_id)
-VALUES ("Wade Wilson", 1);
+INSERT INTO employee (employee_name, role_id, manager_id)
+VALUES ("Wade Wilson", 1, NULL);
